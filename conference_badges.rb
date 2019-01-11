@@ -50,4 +50,10 @@ def printer(attendees)
   
   rooms = assign_rooms(attendees)
   
+  rooms.each do |room|
+    
+    puts room
+    
+  end
+  
 end
