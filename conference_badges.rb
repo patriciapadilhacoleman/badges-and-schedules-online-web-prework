@@ -22,9 +22,10 @@ def assign_rooms(speakers)
   room = 1
   room_list = []
   
+  
   while room <=7 do
     
-    name = speakers[room -1]
+    name = speakers
        
     room_list << "Hello, #{name}! You'll be assigned to room #{room}!"
     
