@@ -21,13 +21,12 @@ def assign_rooms(speakers)
   
   room = 1
   room_list = []
+  
   while room <=7 do
     
-    speakers.each do |name|
+    name = speakers[room -1]
        
-      room_list << "Hello, #{name}! You'll be assigned to room #{room}!"
-    
-    end
+    room_list << "Hello, #{name}! You'll be assigned to room #{room}!"
     
     room += 1
     
